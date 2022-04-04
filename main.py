@@ -1,3 +1,17 @@
-#Saludando a karen y a valen <3
-print("<3 Hola mis amores vamonos de farra <3")
+#Diccionarios en Python
 
+#Listas==Arreglos []
+
+#Diccionarios en PY==Objetos {}
+#Atributos ==Keys/Llaves
+
+estudiante={
+    'nombre':'Jhon',
+    'edad':25,
+    'esUnaWinx':True
+}
+
+print(estudiante)
+print(estudiante['edad'])
+estudiante['cedula']=1597538264
+print(estudiante)
